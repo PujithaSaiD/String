@@ -1,0 +1,8 @@
+l=['hi',7,8.2]
+for i in l:
+  if(isinstance(i,int)):
+    print("Integer")
+  elif(isinstance(i,float)):
+    print("Float")
+  else:
+    print("String")
